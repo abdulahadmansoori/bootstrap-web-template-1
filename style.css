@@ -14,20 +14,18 @@ h2{
 }
 
 .navbar {
-    /* align-items: center; */
     display: block;
-    /* justify-content: center ; */
+    margin: 2% 0%;
 }
 
 .navbar ul {
-    /* align-items: center; */
     text-align: center;
     list-style: none;
 }
 
 .navbar ul li {
     display: inline-block;
-    margin: 12px 20px;
+    margin: 0px 20px;
 }
 
 .navbar ul li a {
@@ -36,18 +34,24 @@ h2{
     font-weight: 700;
 
 }
-
+.nav-icons{
+    margin: 8% 0%;
+}
 .nav-icons img {
     margin: 12px 20px;
 }
 
 .main-banner {
     background-image: url(./images/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 800px;
     padding-top: 14%;
     color: #fff;
 }
-
+.z_-1{
+    z-index: -1;
+}
 .main-banner h1 {
     font-size: 4rem;
 }
@@ -102,7 +106,6 @@ h2{
 }
 
 .batch h2 {
-    /* text-align: center; */
     margin: auto;
     margin-top: 5.8%;
 
@@ -159,7 +162,6 @@ h2{
 }
 
 .testimonial h1 {
-    /* display: inline-block; */
     font-size: 1rem;
     margin-top: 10%;
     margin-bottom: 0%;
@@ -167,7 +169,6 @@ h2{
 
 .testimonial p {
     margin-top: 0%;
-    /* display: inline-block; */
     font-size: 0.75rem;
     font-weight: 300;
 }
@@ -215,11 +216,34 @@ h2{
     margin: 0%;
 
 }
+.form{
+    background: #fff;
+    padding: 3%;
+}
+.form input{
+    padding: 2% 3%;
+    border: none;
+    width: 70%;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #234f4b;
+    outline: none;
+}
+.form button{
+    padding: 2% 5%;
+    border: none;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #234f4b;
+}
 
 .footer {
     padding: 5%;
     background-color: #234f4b;
     color: #fff;
+    margin-top: -10%;
+    padding-top: 10%;
 }
 .info h6{
     display: inline-block;
