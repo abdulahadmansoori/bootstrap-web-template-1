@@ -3,12 +3,14 @@
     padding: 0px;
 }
 
-h1{
+h1 {
     font-family: Abril Fatface;
 }
-h2{
+
+h2 {
     font-family: Bahnschrift;
 }
+
 .logo {
     margin: 20px 0px;
 }
@@ -32,15 +34,20 @@ h2{
     text-decoration: none;
     color: black;
     font-weight: 700;
+    font-size: 1.1rem;
 
 }
-.nav-icons{
+
+.nav-icons {
     margin: 8% 0%;
 }
-.nav-icons img {
-    margin: 12px 20px;
-}
 
+.nav-icons img {
+    margin: 12px 10px;
+}
+.nav-icons a .certIcon{
+    width: 14%;
+}
 .main-banner {
     background-image: url(./images/banner-image.png);
     background-repeat: no-repeat;
@@ -49,9 +56,11 @@ h2{
     padding-top: 14%;
     color: #fff;
 }
-.z_-1{
+
+.z_-1 {
     z-index: -1;
 }
+
 .main-banner h1 {
     font-size: 4rem;
 }
@@ -60,7 +69,8 @@ h2{
     padding: 5% 0%;
     margin: 5% 0%;
 }
-.secHead h1{
+
+.secHead h1 {
     font-size: 3.5rem;
     margin-bottom: 5%;
 }
@@ -118,7 +128,8 @@ h2{
     padding: 20% 5%;
     text-align: center;
 }
-.num h2{
+
+.num h2 {
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
 }
@@ -216,11 +227,13 @@ h2{
     margin: 0%;
 
 }
-.form{
+
+.form {
     background: #fff;
     padding: 3%;
 }
-.form input{
+
+.form input {
     padding: 2% 3%;
     border: none;
     width: 70%;
@@ -229,7 +242,8 @@ h2{
     color: #234f4b;
     outline: none;
 }
-.form button{
+
+.form button {
     padding: 2% 5%;
     border: none;
     font-size: 1.75rem;
@@ -242,14 +256,403 @@ h2{
     padding: 5%;
     background-color: #234f4b;
     color: #fff;
-    margin-top: -10%;
+    /* margin-top: -10%; */
     padding-top: 10%;
 }
-.info h6{
+
+.info h6 {
     display: inline-block;
     font-weight: 300;
     margin: 5% 0%;
 }
-.abc h6{
+
+.abc h6 {
     font-weight: 300;
+}
+
+
+/* css use only in products page */
+.products .row {
+    margin: 5% 0%;
+}
+
+.heading {
+    margin: 3% 0%;
+    font-size: 3rem;
+}
+
+/* .product{
+    /* height: 400px; */
+/* background: rgb(230, 230, 230); */
+
+
+.img {
+
+    border: 0.5px solid rgb(199, 199, 199);
+    /* box-shadow: 0px 0px 5px; */
+}
+
+.img img {
+    width: 100%;
+}
+
+.product h4 {
+    margin: 5% 2%;
+}
+
+.shopNow {
+    text-align: right;
+    font-size: 1.5rem;
+
+}
+
+.price {
+    color: red;
+    font-size: 1.5rem;
+    font-family: Abril Fatface;
+
+}
+
+.nav {
+    margin: 20%;
+    display: block;
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: #234f4b;
+    border-color: #234f4b;
+}
+
+.page-link {
+    color: #000;
+    background: rgb(222, 222, 222);
+}
+
+.Previous {
+    background: red;
+    color: #fff;
+
+}
+
+.page-item {
+
+    margin: 0% 1.5%;
+    border-radius: none;
+}
+
+.next {
+    background: #234f4b;
+    color: #fff;
+}
+
+.Section {
+    padding: 5%;
+    /* border: 1px solid gray; */
+    box-shadow: 0px 0px 5px gray;
+    margin: 05% 0%;
+}
+
+.Section h3 {
+    margin: 5% 0%;
+}
+
+/* account page work  */
+
+.LogIn input {
+    width: 100%;
+    padding: 2% 3%;
+    font-size: 1.2rem;
+    margin: 2% 0%;
+    outline-color: rgb(213, 213, 213);
+    color: gray;
+    border: 1px solid rgb(194, 194, 194);
+
+}
+
+.LogIn span {
+    font-size: 0.75rem;
+}
+
+.LogIn button {
+    width: 100%;
+    padding: 1% 0%;
+    font-size: 1.1rem;
+    margin: 2% 0%;
+    border: 1px solid #000;
+    background: #234f4b;
+    color: #fff;
+
+}
+
+span .rememberMe {
+    width: 5%;
+}
+
+.agree {
+    font-size: 0.75rem;
+}
+
+.agree span {
+    color: red;
+    font-weight: 700;
+}
+
+.register input {
+    padding: 2% 3%;
+    font-size: 1.2rem;
+    margin: 2% 0%;
+    outline-color: rgb(213, 213, 213);
+    color: gray;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+::placeholder {
+    color: rgb(194, 194, 194);
+}
+
+.W50 {
+    width: 49.25%;
+}
+
+.W100 {
+    width: 100%;
+}
+
+.register button {
+    width: 100%;
+    padding: 1% 0%;
+    font-size: 1.1rem;
+    margin: 2% 0%;
+    border: 1px solid #000;
+    background: #234f4b;
+    color: #fff;
+}
+
+.green {
+    color: #234f4b;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+/* about us page css */
+.AboutUs {
+    margin: 5% 0%;
+}
+
+.sideImg img {
+    width: 100%;
+}
+
+.OurQuality {
+    background: #000;
+    padding: 5% 0%;
+}
+
+.OurQualitycard {
+    color: #fff;
+    text-align: center;
+}
+
+.OurQualitycard h1 {
+    font-size: 5rem;
+}
+
+.OurQualitycard h2 {
+    font-weight: 50;
+}
+
+.features {
+    margin: 5% 0%;
+}
+
+.features .container {
+    background: rgb(237, 236, 236);
+
+}
+
+.features .container .row .col-md-4 {
+    padding: 0% 0%;
+}
+
+.cardtext {
+    text-align: center;
+    padding: 12% 10%;
+}
+
+.coverImg img {
+    width: 100%;
+}
+
+.sideText h3 {
+    font-size: 2rem;
+}
+
+.sideText h2 {
+    font-size: 3rem;
+}
+
+
+.sideText p {
+    font-size: 1rem;
+}
+
+.bottomText p{
+    margin: 3% 0%;
+}
+.OurTestimonials{
+    text-align: center;
+    background: #f6f6f7;
+}
+.Testimonial{
+    padding: 10%;
+}
+.Testimonial h3{
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Testimonial h1{
+    font-size: 3rem;
+}
+.Testimonial p{
+    font-size: 1.25rem;
+    margin: 4% 0% 0% 0%;
+}
+
+/* contact page work */
+.contactCard{
+    text-align: center;
+    /* color: #fff; */
+    /* background: #000; */
+    border: 1px solid #234f4b;
+}
+.contactCard .img img{
+    width: 10%;
+}
+.contactCard .img {
+    background: #234f4b;
+    border: 1px solid #234f4b;
+    padding: 5% 0%;
+}
+.contactCard h5{
+    margin: 5% 0% 1% 0%;
+}
+.contactCard p{
+    font-size: 1.25rem;
+    margin: 0%;
+    margin: 1% 0%;
+}
+
+.nextRaw{
+    margin-top: 5%;
+}
+
+.sectionNoBorder{
+    box-shadow: none;
+}
+.Contact .container .row .col-md-6 .Section{
+    margin: 0% 0% 10% 0%;
+}
+
+.map img{
+    width: 100%;
+
+}
+
+/* cert page work */
+.certItems{
+    margin: 5% 0%;
+}
+.items{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 1%;
+    /* background: #000; */
+    /* color: #fff; */
+}
+.items th{
+    background: #000;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.itemDetails {
+    font-size: 1.5rem;
+    /* text-align: center; */
+    margin: 0% 5%;
+}
+.itemImg{
+    border: 1px solid rgb(197, 197, 197);
+    padding: 15% 0%;
+}
+.items .itemImg img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    /* padding: 20%; */
+}
+.ItemQuentity input{
+    width: 100%;
+    margin-top: 15%;
+}
+.sum{
+    padding: 5% 1%;
+    text-align: center;
+    border: 1px solid gray;
+
+}
+.sum h3{
+    color: red;
+}
+.courier{
+    padding: 10% 10%;
+    /* text-align: center; */
+    border: 1px solid gray;
+    margin-top: 10%;
+
+}
+.sum h5{
+    margin: 15% 0%;
+}
+/* .billValue{
+    text-align: left;
+    padding: 2% 0%;
+} */
+.tableHeading{
+    background: #000;
+    color: #fff;
+    padding: 2%;
+}
+.item{
+    padding: 2%;
+    border-bottom: 1px solid rgb(183, 181, 181);
+}
+.ItemPrice h4{
+    margin-top: 13%;
+}
+.cancel{
+    border: 1px solid rgb(197, 197, 197);
+    margin-top: 30%;
+}
+.cancel span{
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    padding: 2%;
+    
+}
+.exploreMore{
+    margin: 5% 0%;
+}
+.exploreMore a{
+    text-decoration: none;
+}
+.exploreMore h4{
+     color: #fff;
+     background: #234f4b;
+     text-align: center;
+     padding: 2% 0%;
+     font-weight: 300;
 }
