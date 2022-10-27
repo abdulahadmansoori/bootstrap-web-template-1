@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Account</title>
+    <title>Product Details</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
@@ -34,13 +34,15 @@
                     <div class="nav-icons">
                         <a href="./account.html"><img src="./images/person.png" alt="" srcset=""></a>
                         <a href="./terms&policy.html"><img src="./images/more.png" alt="" srcset=""></a>
-                        <a href="./cert.html"><img class="certIcon "src="./images/cart-arrow-down-solid.svg" alt="" srcset=""></a>
+                        <a href="./cert.html"><img class="certIcon " src="./images/cart-arrow-down-solid.svg" alt=""
+                                srcset=""></a>
 
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
     <section>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -104,44 +106,134 @@
             </div>
         </div>
     </section>
-    <section class="account">
+
+    <section class="product_details">
         <div class="container">
+            <h1>Product Details</h1>
             <div class="row">
-                <h1 class="heading">My Account</h1>
-                <div class="col-md-6">
-                    <div class="Section">
-                        <h3>Log Into Your Account</h3>
-                        <form class="LogIn" action="">
-                            <input type="text" placeholder="User Name" />
-                            <input type="password" placeholder="Password" />
-                            <button>LOGIN</button>
-                            <span>
-                                <input class="rememberMe" type="checkbox" name="rememberMe" id="rememberMe">
-                                <label for="rememberMe">Remember Me</label>
-                            </span>
-                            <span class="ForgetPass">Forget password?</span>
-                            <span class="green">Create Account</span>
-                        </form>
+                <div class="col-lg-2">
+                    <div class="productImg subImg">
+                        <img src="./images/pd1.jpg" alt="">
+                    </div>
+                    <div class="productImg subImg">
+                        <img src="./images/pd2.jpg" alt="">
+                    </div>
+                    <div class="productImg subImg">
+                        <img src="./images/pd3.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="Section">
-                        <h3>Register</h3>
-                        <form class="register" action="">
-                            <input class="W50" type="text" placeholder="First Name" />
-                            <input class="W50"type="text" placeholder="Last Name" />
-                            <input class="W100"type="text" placeholder="Email" />
-                            <input class="W100"type="password" placeholder="Password" />
-                            <input class="W100"type="password" placeholder="Retype Password" />
-                            <button>CREATE ACCOUNT</button>
-                            <span class="agree">By creating an account, I'am agree to your <span>Terms & Conditions</span> </span>
-                            <span class="green">Already Registered</span>
-                        </form>
+                <div class="col-lg-5">
+                    <div class="productImg mainImg">
+                        <img src="./images/p7.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-lg-5">
+                    <div class="details">
+
+                        <h2>Product Name Here</h2>
+                        <h3>$123.00</h3>
+                                <span>-</span>
+                                <span>2</span>
+                                <span>+</span>
+                                <button>ADD TO CART</button>
+                        
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, accusantium omnis qui animi necessitatibus nostrum deserunt esse recusandae expedita ab. Vel ullam dolor iusto soluta inventore. Doloribus, quasi libero tempore iste voluptatem quas recusandae exercitationem minus. Facilis dolore voluptatem natus sed deleniti a aperiam nemo quia! Iusto minus voluptas provident!</p>
+                        <div>
+                            <h4>Color Shown</h4><h5>Black/White/Gray</h5>
+                        </div>
+                        <div>
+                            <h4>Style</h4><h5>CT1000-100</h5>
+                        </div>
+                        <div>
+                            <h4>Availability</h4><h5>In Stock</h5>
+                        </div>
+                        <div class="socialIcon">
+                            <img src="./images/facebook.png" alt="">
+                            <img src="./images/twitter.png" alt="">
+                            <img src="./images/googleplus.png" alt="">
+                            <img src="./images/linkedin.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="relatedProducts">
+
+                        <h1>Related Products</h1>
+                        <hr>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus iure, autem quam, modi debitis nostrum magnam soluta maiores repudiandae culpa recusandae.</p>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="./images/p1.png" alt="">
+                                    </div>
+                                    <h4>Product Name Here</h4>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <span class="price">$125</span>
+                                        </div>
+                                        <div class="col-sm-4"></div>
+                                        <div class="col-sm-4">
+                                            <span class="shopNow">
+                                                Shop Now
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="./images/p2.png" alt="">
+                                    </div>
+                                    <h4>Product Name Here</h4>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <span class="price">$125</span>
+                                        </div>
+                                        <div class="col-sm-4"></div>
+                                        <div class="col-sm-4">
+                                            <span class="shopNow">
+                                                Shop Now
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="./images/p3.png" alt="">
+                                    </div>
+                                    <h4>Product Name Here</h4>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <span class="price">$125</span>
+                                        </div>
+                                        <div class="col-sm-4"></div>
+                                        <div class="col-sm-4">
+                                            <span class="shopNow">
+                                                Shop Now
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+                
         </div>
     </section>
+
+
     <footer class="footer">
         <div class="container">
             <div class="row">

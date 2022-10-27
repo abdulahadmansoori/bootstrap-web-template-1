@@ -45,9 +45,11 @@ h2 {
 .nav-icons img {
     margin: 12px 10px;
 }
-.nav-icons a .certIcon{
+
+.nav-icons a .certIcon {
     width: 14%;
 }
+
 .main-banner {
     background-image: url(./images/banner-image.png);
     background-repeat: no-repeat;
@@ -281,10 +283,9 @@ h2 {
     font-size: 3rem;
 }
 
-/* .product{
-    /* height: 400px; */
-/* background: rgb(230, 230, 230); */
-
+ .product{
+    cursor: pointer;
+ }
 
 .img {
 
@@ -497,162 +498,372 @@ span .rememberMe {
     font-size: 1rem;
 }
 
-.bottomText p{
+.bottomText p {
     margin: 3% 0%;
 }
-.OurTestimonials{
+
+.OurTestimonials {
     text-align: center;
     background: #f6f6f7;
 }
-.Testimonial{
+
+.Testimonial {
     padding: 10%;
 }
-.Testimonial h3{
+
+.Testimonial h3 {
     color: red;
     font-size: 2rem;
     font-weight: 700;
 }
-.Testimonial h1{
+
+.Testimonial h1 {
     font-size: 3rem;
 }
-.Testimonial p{
+
+.Testimonial p {
     font-size: 1.25rem;
     margin: 4% 0% 0% 0%;
 }
 
 /* contact page work */
-.contactCard{
+.contactCard {
     text-align: center;
     /* color: #fff; */
     /* background: #000; */
     border: 1px solid #234f4b;
 }
-.contactCard .img img{
+
+.contactCard .img img {
     width: 10%;
 }
+
 .contactCard .img {
     background: #234f4b;
     border: 1px solid #234f4b;
     padding: 5% 0%;
 }
-.contactCard h5{
+
+.contactCard h5 {
     margin: 5% 0% 1% 0%;
 }
-.contactCard p{
+
+.contactCard p {
     font-size: 1.25rem;
     margin: 0%;
     margin: 1% 0%;
 }
 
-.nextRaw{
+.nextRaw {
     margin-top: 5%;
 }
 
-.sectionNoBorder{
+.sectionNoBorder {
     box-shadow: none;
 }
-.Contact .container .row .col-md-6 .Section{
+
+.Contact .container .row .col-md-6 .Section {
     margin: 0% 0% 10% 0%;
 }
 
-.map img{
+.map img {
     width: 100%;
 
 }
 
 /* cert page work */
-.certItems{
+.certItems {
     margin: 5% 0%;
 }
-.items{
+
+.items {
     width: 100%;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 1px solid black;
     padding: 1%;
     /* background: #000; */
     /* color: #fff; */
 }
-.items th{
+
+.items th {
     background: #000;
     color: #fff;
     font-size: 1.2rem;
 }
+
 .itemDetails {
     font-size: 1.5rem;
     /* text-align: center; */
     margin: 0% 5%;
 }
-.itemImg{
+
+.itemImg {
     border: 1px solid rgb(197, 197, 197);
     padding: 15% 0%;
 }
-.items .itemImg img{
+
+.items .itemImg img {
     width: 50%;
     display: block;
     margin: auto;
     /* padding: 20%; */
 }
-.ItemQuentity input{
+
+.ItemQuentity input {
     width: 100%;
     margin-top: 15%;
 }
-.sum{
+
+.sum {
     padding: 5% 1%;
     text-align: center;
     border: 1px solid gray;
 
 }
-.sum h3{
+
+.sum h3 {
     color: red;
 }
-.courier{
+
+.courier {
     padding: 10% 10%;
     /* text-align: center; */
     border: 1px solid gray;
     margin-top: 10%;
 
 }
-.sum h5{
+
+.sum h5 {
     margin: 15% 0%;
 }
+
 /* .billValue{
     text-align: left;
     padding: 2% 0%;
 } */
-.tableHeading{
+.tableHeading {
     background: #000;
     color: #fff;
     padding: 2%;
 }
-.item{
+
+.item {
     padding: 2%;
     border-bottom: 1px solid rgb(183, 181, 181);
 }
-.ItemPrice h4{
+
+.ItemPrice h4 {
     margin-top: 13%;
 }
-.cancel{
+
+.cancel {
     border: 1px solid rgb(197, 197, 197);
     margin-top: 30%;
 }
-.cancel span{
+
+.cancel span {
     font-size: 1.5rem;
     display: block;
     text-align: center;
     padding: 2%;
-    
+
 }
-.exploreMore{
+
+.exploreMore {
     margin: 5% 0%;
 }
-.exploreMore a{
+
+.exploreMore a {
     text-decoration: none;
 }
-.exploreMore h4{
-     color: #fff;
-     background: #234f4b;
-     text-align: center;
-     padding: 2% 0%;
-     font-weight: 300;
+
+.exploreMore h4 {
+    color: #fff;
+    background: #234f4b;
+    text-align: center;
+    padding: 2% 0%;
+    font-weight: 300;
+}
+
+
+
+
+/* checkOut page work */
+.checkOut {
+    margin: 5% 0%;
+}
+
+.CheckOutItem {
+    margin-top: 5%;
+}
+
+.CheckOutItem .col-lg-12 {
+    padding: 0%;
+}
+
+.CheckOutItemHeading {
+    margin: 0%;
+    background: #000;
+    color: #fff;
+    padding: 1% 1%;
+}
+
+.CheckOutItemHeading h2 {
+    margin: 0%;
+
+}
+
+.CheckOut_items {
+    margin: 2% 0%;
+
+}
+
+.CheckOut_items label {
+    margin-top: 4%;
+    font-size: 1.15rem;
+}
+
+.CheckOut_items input {
+    width: 100%;
+    padding: 1.5%;
+    outline-color: rgb(190, 190, 190);
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.ordered_list {
+    border: 1px solid rgb(190, 190, 190);
+    /* padding: 10%; */
+}
+
+.ordered_list {
+    margin: 6% 0%;
+}
+
+.ordered_item {
+    width: 100%;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    color: gray;
+    padding: 5% 10%;
+}
+
+.ordered_items h3 {
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 10% 10%;
+
+}
+
+.alignItemRight {
+    float: right;
+}
+
+.paymentMethod .payment {
+    padding: 2% 5%;
+}
+
+.placeOrder {
+    background: #234f4b;
+    text-align: center;
+    padding: 2%;
+    color: #fff;
+    width: 70%;
+    margin: 5% auto;
+
+}
+
+.placeOrder h5 {
+    margin: 0%;
+}
+
+
+/* terms and policy page */
+.terms_and_policy {
+    margin: 5% 0%;
+}
+
+.policy {
+    margin: 3% 0%;
+}
+
+/* Product Details page */
+
+.product_details{
+    margin: 5% 0%;
+}
+.product_details .row{
+    margin: 5% 0%;
+}
+.productImg {
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.subImg {
+    margin: 0% 0% 5% 0%;
+    padding: 5%;
+}
+
+.mainImg {
+    padding: 14% 0%;
+}
+
+.productImg img {
+    width: 100%;
+}
+
+.details {
+    margin: 10%;
+}
+
+.details span {
+    padding: 1% 2%;
+
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.details button {
+    padding: 1% 0%;
+    width: 70%;
+    background: #234f4b;
+    color: #fff;
+}
+
+.details p {
+    margin: 5% 0%;
+}
+
+.details h3 {
+    margin: 5% 0%;
+}
+
+.details h4,
+h5 {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.socialIcon img {
+    width: 5%;
+    margin: 3% 2% 3% 0%;
+}
+
+.relatedProducts h1 {
+    text-align: center;
+
+}
+
+.relatedProducts hr {
+    width:15%;
+    margin:auto;
+    border: 2px solid #234f4b;
+    color: #234f4b;
+    background: #234f4b;
+}
+.relatedProducts p{
+    text-align: center;
+    margin: 2% auto;
+    width: 60%;
+
 }
