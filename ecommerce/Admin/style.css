@@ -1,0 +1,30 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif
+}
+input {
+    width: 100%;
+    padding: 1%;
+    margin: 0% 0% 1% 0%;
+}
+
+label {
+    font-size: 1rem;
+    margin: 0% 0%;
+    font-weight: 600;
+}
+
+form {
+    padding: 1%;
+}
+
+button {
+    padding: 1% 1.5%;
+    margin: 1% 0%;
+}
+

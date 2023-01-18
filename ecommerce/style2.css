@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1000px) {
+    .form button {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .form input {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .UnitPrice span,.SubPrice span,.Quality span {
+        font-size: 0.75rem;
+    }
+    .sum h5,
+    h3 {
+        margin: 10% 0%;
+        font-size: 1rem;
+    }
+    .itemName h2 {
+        font-size: 1.5rem;
+    }
+
+    .itemName p {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .navarraw img {
+        margin: 0% 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .form button {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .form input {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .navarraw img {
+        margin: 0% 2%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .secHead h1,
+    .experience h1,
+    .reviews h1,
+    .mainBanner h1,
+    .CustomersSaying h1 {
+        font-size: 2rem;
+    }
+
+    .reviews h1,
+    .subscribe h1 {
+        font-size: 1rem;
+    }
+
+    .main-banner {
+        height: 100%;
+    }
+
+    .itemName h2 {
+        font-size: 1rem;
+    }
+
+    .itemName p {
+        font-size: 0.75rem;
+    }
+
+    .sum h5,
+    h3 {
+        margin: 5% 0%;
+        font-size: 0.75rem;
+    }
+
+    .UnitPrice span,.SubPrice span,.Quality span {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .num {
+        color: #fff;
+        background: #234f4b;
+        border-radius: 50px;
+        padding: 1% 0%;
+        width: 15%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .card {
+        margin-top: 5%;
+    }
+
+
+    .Btn h5 {
+        margin-top: 20%;
+        padding: 5%;
+    }
+
+    .navarraw {
+        margin: 5% 0%;
+    }
+
+    .navarraw img {
+        margin: 2% 5%;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .form button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .secHead h1,
+    .experience h1,
+    .reviews h1,
+    .mainBanner h1,
+    .CustomersSaying h1 {
+        font-size: 2.5rem;
+    }
+
+    .reviews h1,
+    .subscribe h1 {
+        font-size: 1.5rem;
+    }
+
+    .main-banner {
+        height: 100%;
+    }
+    .itemName h2 {
+        font-size: 0.75rem;
+    }
+
+    .itemName p {
+        font-size: 0.5rem;
+    }
+
+}
